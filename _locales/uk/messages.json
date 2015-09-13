@@ -1,0 +1,26 @@
+{
+  "extension_name": {
+    "message": "Пошук",
+    "description": "Описує назву програми."
+  },
+  "extension_short_name": {
+    "message": "Пошук",
+    "description": "Описує коротку назву програми."
+  },
+  "extension_description": {
+    "message": "Розширення для зручного пошуку в Інтернеті.",
+    "description": "Описує опис програми."
+  },
+  "extension_default_title": {
+    "message": "Пошук",
+    "description": "Описує поле title програми."
+  },
+  "popup_menu_general": {
+    "message": "Основні",
+    "description": "Описує текст popup menu (General)."
+  },
+  "popup_menu_special": {
+    "message": "Спеціальні",
+    "description": "Описує текст popup menu (Special)."
+  }
+}

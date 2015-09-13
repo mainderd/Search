@@ -1,0 +1,26 @@
+{
+  "extension_name": {
+    "message": "Search",
+    "description": "The field, that describes name of extension."
+  },
+  "extension_short_name": {
+    "message": "Search",
+    "description": "The field, that describes short name of extension."
+  },
+  "extension_description": {
+    "message": "The extension for convenient search on the Internet.",
+    "description": "The field, that describes description of extension."
+  },
+  "extension_default_title": {
+    "message": "Search",
+    "description": "The field, that describes default title of extension."
+  },
+  "popup_menu_general": {
+    "message": "General",
+    "description": "The field, that describes default text of popup menu (General)."
+  },
+  "popup_menu_special": {
+    "message": "Special",
+    "description": "The field, that describes default text of popup menu (Special)."
+  }
+}

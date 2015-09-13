@@ -1,0 +1,290 @@
+body {
+	margin: 2px auto;
+	margin-left :2px;
+	width: 242px;
+}
+
+.popup-menu {
+	width: 240px; /*width of menu*/
+}
+
+.popup-menu .header-bar {
+	font: bold 13px Verdana;
+	color: white;
+	background: #606060 url(magnifier16_white.png) no-repeat 8px 6px; /*last 2 values are the x and y coordinates of bullet image*/
+	margin-bottom: 5px; /*bottom spacing between header and rest of content*/
+	text-transform: uppercase;
+	padding: 7px 0 7px 31px; /*31px is left indentation of header text*/
+}
+
+.popup-menu .header-bar a {
+	text-decoration: none;
+	cursor: default;
+	color: white;
+	display: block;
+}
+
+.popup-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.popup-menu ul li {
+	padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.popup-menu ul li a {
+	font: normal 12px Arial;
+	color: black;
+	background: #E9E9E9;
+	display: block;
+	padding: 5px 0;
+	line-height: 17px;
+	padding-left: 34px; /*link text is indented 8px*/
+	text-decoration: none;
+}
+
+.popup-menu ul li a:hover { /*hover state CSS*/
+	color: white;
+	font: 600 15px Arial;
+}
+
+/* -------- Google -------- */
+#a-google {
+	background: #E9E9E9 url(googleg_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-google:visited {
+	color: black url(googleg_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+
+#a-google:hover { /*hover state CSS*/
+	background: black url(googleg_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Bing -------- */
+#a-bing {
+	background: #E9E9E9 url(bing_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-bing:visited {
+	color: black url(bing_favicon.ico) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-bing:hover { /*hover state CSS*/
+	background: black url(bing_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Yahoo -------- */
+#a-yahoo {
+	background: #E9E9E9 url(yahoo_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-yahoo:visited {
+	color: black url(yahoo_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+
+#a-yahoo:hover { /*hover state CSS*/
+	background: black url(yahoo_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* --------- Ask --------- */
+#a-ask {
+	background: #E9E9E9 url(ask_favicon.png) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-ask:visited {
+	color: black url(ask_favicon.png) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-ask:hover { /*hover state CSS*/
+	background: black url(ask_favicon.png) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Yandex -------- */
+#a-yandex {
+	background: #E9E9E9 url(yandex_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-yandex:visited {
+	color: black url(yandex_favicon.ico) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-yandex:hover { /*hover state CSS*/
+	background: black url(yandex_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Baidu -------- */
+#a-baidu {
+	background: #E9E9E9 url(baidu_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-baidu:visited {
+	color: black url(baidu_favicon.ico) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-baidu:hover { /*hover state CSS*/
+	background: black url(baidu_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Rambler -------- */
+#a-rambler {
+	background: #E9E9E9 url(rambler_favicon.png) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-rambler:visited {
+	color: black url(rambler_favicon.png) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-rambler:hover { /*hover state CSS*/
+	background: black url(rambler_favicon.png) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Mail RU -------- */
+#a-mail-ru {
+	background: #E9E9E9 url(mail_ru_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-mail-ru:visited {
+	color: black url(mail_ru_favicon.ico) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-mail-ru:hover { /*hover state CSS*/
+	background: black url(mail_ru_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- YouTube -------- */
+#a-youtube {
+	background: #E9E9E9 url(youtube_favicon.png) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-youtube:visited {
+	color: black url(youtube_favicon.png) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-youtube:hover { /*hover state CSS*/
+	background: black url(youtube_favicon.png) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Vimeo -------- */
+#a-vimeo {
+	background: #E9E9E9 url(vimeo_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-vimeo:visited {
+	color: black url(vimeo_favicon.ico) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-vimeo:hover { /*hover state CSS*/
+	background: black url(vimeo_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Google Maps -------- */
+#a-google-maps {
+	background: #E9E9E9 url(google_maps_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-google-maps:visited {
+	color: black url(google_maps_favicon.ico) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-google-maps:hover { /*hover state CSS*/
+	background: black url(google_maps_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Yandex Maps -------- */
+#a-yandex-maps {
+	background: #E9E9E9 url(yandex_maps_favicon.png) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-yandex-maps:visited {
+	color: black url(yandex_maps_favicon.png) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-yandex-maps:hover { /*hover state CSS*/
+	background: black url(yandex_maps_favicon.png) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Google Play -------- */
+#a-google-play {
+	background: #E9E9E9 url(google_play_favicon.ico) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-google-play:visited {
+	color: black url(google_play_favicon.ico) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-google-play:hover { /*hover state CSS*/
+	background: black url(google_play_favicon.ico) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */
+
+/* -------- Chrome Web Store -------- */
+#a-chrome-webstore {
+	background: #E9E9E9 url(chrome_web_store_favicon.png) no-repeat 8px 6px;
+	background-size: 16px 16px;
+}
+
+#a-chrome-webstore:visited {
+	color: black url(chrome_web_store_favicon.png) no-repeat 8px 6px;;
+	background-size: 18px 18px;
+}
+
+#a-chrome-webstore:hover { /*hover state CSS*/
+	background: black url(chrome_web_store_favicon.png) no-repeat 8px 6px;
+	background-size: 18px 18px;
+}
+/* ------------------------ */

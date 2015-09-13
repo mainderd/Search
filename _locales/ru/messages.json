@@ -1,0 +1,26 @@
+{
+  "extension_name": {
+    "message": "Поиск",
+    "description": "Описывает имя приложения."
+  },
+  "extension_short_name": {
+    "message": "Поиск",
+    "description": "Описывает короткое имя приложения."
+  },
+  "extension_description": {
+    "message": "Расширение для удобного поиска в Интернете.",
+    "description": "Описывает описание приложения."
+  },
+  "extension_default_title": {
+    "message": "Поиск",
+    "description": "Описывает поле title приложения."
+  },
+  "popup_menu_general": {
+    "message": "Основные",
+    "description": "Описывает текст popup menu (General)."
+  },
+  "popup_menu_special": {
+    "message": "Специальные",
+    "description": "Описывает текст popup menu (Special)."
+  }
+}

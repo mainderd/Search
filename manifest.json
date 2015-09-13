@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extension_name__",
+  "version": "2.20.3",
+  "default_locale": "en",
+  "description": "__MSG_extension_description__",
+  "icons": {
+    "16": "images/magnifier16.png",
+    "48": "images/magnifier64.png",
+    "128": "images/magnifier128.png"
+  },
+  "browser_action": {
+    "default_title": "__MSG_extension_default_title__",
+    "default_icon": "images/magnifier24.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "contextMenus"
+  ],
+  "short_name": "__MSG_extension_short_name__"
+}
